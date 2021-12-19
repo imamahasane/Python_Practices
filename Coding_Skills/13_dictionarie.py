@@ -1,17 +1,19 @@
-def shape(a = 7):
-    for i in range(a+1):
-        m = ''
-        for j in range(i):
-            m += '*'
-        print(m)
-    
-    for i in range(a+1, 0, -1):
-        n = ''
-        for j in range(i):
-            n += '*'
-        print(n)
-    return 
-# re = int(input("Please input hear: "))
-v = shape()
+a = {'imam': 9123, 'naima': 63719, 'samiul': 93802}
+print(a)
 
-print(v)
+a['narail'] = 84021
+print(a)
+
+for key in a:
+    print(key)
+
+for key in a:
+    print(a[key])
+
+
+for key in a:
+    print(f"Key is: {key} and Value is: {a[key]}")
+
+
+for i, j in a.items():
+    print(f"Key is: {i} and Value is: {j}")
