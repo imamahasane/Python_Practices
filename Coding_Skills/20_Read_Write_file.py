@@ -1,3 +1,5 @@
 a = open("/Users/imamahasan/python/ML_Engineer_Journey/first_read.txt", 'r')
-print(a.read())
+
+for line in a:
+    print(line)
 a.close()
