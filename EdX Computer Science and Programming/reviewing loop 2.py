@@ -1,11 +1,11 @@
 
 ans = 0
-neg_flg = False
+neg_flag = False
 
-x = int(input("Enter an integer: "))
+x = int(input("Enter an Integer Number: "))
 
 if x < 0:
-    neg_flg = True
+    neg_flag = True
     
 while ans ** 2 < x:
     ans += 1
@@ -16,6 +16,5 @@ if ans ** 2 == x:
 else:
     print(f"{x} is not a perfect square")
     
-    if neg_flg:
+    if neg_flag:
         print("Just checking... did you mean {-x} ?")
-    
