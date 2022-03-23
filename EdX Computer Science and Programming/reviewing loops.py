@@ -17,5 +17,5 @@ else:
     print(f"{x} is not a perfect square")
     
     if neg_flg:
-        print("Just checking... did you mean {-x} ?")
+        print(f"Just checking... did you mean {-x} ?")
     
